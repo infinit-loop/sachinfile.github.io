@@ -1,0 +1,104 @@
+.links{
+    text-decoration: none;
+    color:darkslategray
+}
+.links:hover{
+    color: crimson;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;   
+}
+.dpcontent{
+    display: none;
+}
+.navitem{
+    display: flex;
+    justify-content: space-evenly;
+}
+input,button{
+    border: 1px solid lightgray;
+    outline: none;
+}
+
+.herosection{
+    background-image: url('https://source.unsplash.com/user/erondu');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+
+}
+.cont4a ul{
+    margin: auto 0;
+}
+.cont4a{
+    padding: 20px;
+}
+.crossed{
+    text-decoration: line-through;
+    text-decoration-color: crimson;
+    color: crimson;
+}
+.cont4b img{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    align-self: center;
+}
+.cont4b>div{
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.divo6a>img{
+    width: 150px;
+    height: 200px;
+    margin: 20px;
+}
+.divo6_1>img{
+    width: 350px;
+}
+.divo6_2>img{
+    width: 400px;
+}
+.divo6a>h3{
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 5px;
+    outline: none;
+}
+.cont6{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #f5e9f4;
+    color: darkslategray;
+    
+}
+
+.cont7{
+    padding: 30px 0px;
+    margin: 40px;
+}
+.cont7 div{
+    margin:0 auto;
+}
+
+.cont8{
+    color: darkslategray;
+}
+.cont8 img{
+    width: 70px;
+}
+.cont8 p{
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .uldiv{
+        flex-direction: column;
+    }
+    .navitem.del{
+        display: none;
+    }
+  }
